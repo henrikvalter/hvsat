@@ -258,8 +258,9 @@ class CDCL:
 def main():
     assert len(sys.argv) == 2
     random.seed(1337)
-    # solver = CDCL(termprint=True, waitforinput=False, termprint_delay_seconds=GLOBAL_DELAY)
-    solver = CDCL()
+    solver = CDCL(termprint=True, waitforinput=False, termprint_delay_seconds=GLOBAL_DELAY)
+    # When you gotta go fast
+    # solver = CDCL()
     cnf_filename = sys.argv[1]
     solver.parse_cnf_file(cnf_filename)
     result, _ = solver.solve()

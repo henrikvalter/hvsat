@@ -65,4 +65,8 @@ $ python3 src/CDCL.py input/php_5_4.cnf
 Use the CDCL solver to solve a big instance
 $ python3 src/DPLL.py input/aim-50-1_6-yes1-4.cnf
 
+If you don't want CDCL (or any other solver) to
+print to the terminal, just instantiate the solver with CDCL().
+The main function in CDCL.py demonstrates this.
+
 
