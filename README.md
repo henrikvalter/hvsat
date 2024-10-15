@@ -1,6 +1,8 @@
 
 # hvsat
 
+![hvsat](https://github.com/henrikvalter/hvsat/blob/master/hvsat.gif)
+
 hvsat is a collection of SAT solvers with visual elements.
 During processing, they can print their current solver state
 to the terminal, making them a good tool for learning about SAT solving.
